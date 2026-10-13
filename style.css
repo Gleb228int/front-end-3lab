@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.top-block {
+    width: 100%;
+    background-color: #5bc0de;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.middle-block {
+    width: 100%;
+    background-color: #f8bbd0;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.middle-block img,
+.left-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.float-layout .bottom-wrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.float-layout .left-block {
+    width: 70%;
+    float: left;
+    background-color: #dcedc8;
+    padding: 20px;
+}
+
+.float-layout .right-block {
+    width: 30%;
+    float: left;
+    background-color: #9ccc65;
+    padding: 30px;
+    color: #1b5e20;
+}
+
+.flex-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-layout .bottom-wrap {
+    width: 100%;
+    display: flex;
+}
+
+.flex-layout .left-block {
+    width: 70%;
+    background-color: #dcedc8;
+    padding: 20px;
+}
+
+.flex-layout .right-block {
+    width: 30%;
+    background-color: #9ccc65;
+    padding: 30px;
+    color: #1b5e20;
+}
